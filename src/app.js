@@ -32,5 +32,5 @@ app.get("*" , (req,res)=>{
 });
 
 app.listen(port,()=>{
-    console.log("listining to the port no 8000");
+    console.log(`listining to the port no ${port}`);
 });
